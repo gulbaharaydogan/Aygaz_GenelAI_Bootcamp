@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Galeri</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+    <style>
+        /* Custom CSS styles */
+        .gallery-img {
+            width: 200px;
+            height: 300px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        .gallery-img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="logo.png" alt="Logo" width="50" height="50" class="d-inline-block align-top">
+                    Portfolio Galeri
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#kitap-okumak">Kitap Okumak</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#spor-yapmak">Spor Yapmak</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#saglikli-beslenmek">Sağlıklı Beslenmek</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ders-calisma">Ders Çalışma</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="kitap-okumak">
+            <h2>Kitap Okumak</h2>
+            <div class="container">
+                <div class="row">
+                    <!-- Kitap okumak galerisi -->
+                    <!-- İçerik buraya gelecek -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Diğer seviyelerin section'ları da buraya eklenecek -->
+
+    </main>
+
+    <footer class="bg-light text-center py-3">
+        <div class="container">
+            <img src="logo.png" alt="Logo" width="50" height="50">
+            <p>Portfolio Galeri &copy; 2024</p>
+        </div>
+    </footer>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
